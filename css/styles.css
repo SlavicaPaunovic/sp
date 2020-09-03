@@ -34,7 +34,12 @@ hr {
   width:4%;
   margin: 70px auto 70px auto;
 }
-
+.topp-container {
+    position: absolute;
+    top: 40px;
+    left: 83px;
+    z-index: 1;
+}
 .top-container {
   background-color: #e4f9f5;
   position: relative;
@@ -44,6 +49,7 @@ hr {
 .middle-container {
 margin: 100px 0 100px 0;
 }
+
 
 .bottom-container {}
 
@@ -149,4 +155,25 @@ width:200px;
 }
 .footer-link:hover{
   color:#eaf6f6;
+}
+a.lekcije{
+  font-size: 1.5rem;
+  color:#eaf6f6;
+  margin-top: 50px;
+}
+a.lekcije:hover {
+	background-color:#30E3CB;
+}
+.ivecontainer{
+  margin-top: 50px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  background-color:#66BFBF;
+  position: relative;
+  padding-top: 20px 0;
+
+}
+.ivecontainer hr{
+  margin: 30px auto 30px auto;
+  
 }
