@@ -66,7 +66,7 @@ margin: 100px 0 100px 0;
 .bottom-cloud {
   position: absolute;
   left: 250px;
-  bottom: 420px;
+  top: 355px;
 }
 
 .skill-row {
@@ -175,5 +175,16 @@ a.lekcije:hover {
 }
 .ivecontainer hr{
   margin: 30px auto 30px auto;
-  
+
+}
+.top-cloud.ive1 {
+  position: absolute;
+  left: 150px;
+  top: 140px;
+}
+
+.top-cloud.ive2 {
+  position: absolute;
+  right: 250px;
+top: 480px;
 }
