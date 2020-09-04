@@ -23,10 +23,26 @@ h3 {
   font-family: 'Montserrat', sans-serif;
   color: #11999E;
 }
+@media screen and (max-width:940px){
+  h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+    font-size: 1.8rem;
+  }
+}
 p {
   font-family: 'Montserrat', sans-serif;
   color: #40514E;
   line-height: 1.6;
+}
+@media screen and (max-width:940px){
+  p {
+    font-family: 'Montserrat', sans-serif;
+    color: #40514E;
+    line-height: 1.6;
+    font-size: 1.8rem;
+    
+  }
 }
 hr {
   border: 6px dotted #dce9ea;
@@ -40,6 +56,9 @@ hr {
     left: 83px;
     z-index: 1;
 }
+
+
+
 .top-container {
   background-color: #e4f9f5;
   position: relative;
@@ -51,8 +70,6 @@ margin: 100px 0 100px 0;
 }
 
 
-.bottom-container {}
-
 .ib {
   text-decoration: underline;
 }
@@ -62,19 +79,27 @@ margin: 100px 0 100px 0;
   right: 200px;
   top: 40px;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 940px) {
+  .top-cloud {
+    position: absolute;
+    right: 100px;
+    top: 70px;
+  }
+
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  top: 355px;
+}
+@media screen and (max-width: 940px) {
   .bottom-cloud {
     position: absolute;
     left: 150px;
     top: 400px;
   }
 }
-.bottom-cloud {
-  position: absolute;
-  left: 250px;
-  top: 355px;
-}
-
 .skill-row {
   width: 50%;
   margin: 100px auto 100px auto;
@@ -96,6 +121,11 @@ margin: 100px 0 100px 0;
 .profile p{
   width:40%;
   margin: 0 auto 0 auto;
+}
+@media screen and (max-width: 940px){
+  .profile p{
+    width:60%;
+    margin: 0 auto 0 auto;
 }
 
 .contact-me{
