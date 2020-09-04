@@ -183,6 +183,11 @@ a.lekcije:hover {
   margin: 30px auto 30px auto;
 
 }
+.top-cloud.ive{
+  position: absolute;
+  right: 100px;
+  top: 50px;
+}
 .top-cloud.ive1 {
   position: absolute;
   left: 150px;
